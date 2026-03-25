@@ -2,47 +2,51 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>متجر عبدالله للبطاطس والفراولة</title>
+  <title>متجر عبد الله</title>
   <style>
-    body { font-family: Tahoma, sans-serif; background: #f9f9f9; margin: 0; }
-    header { background: #4CAF50; color: white; padding: 15px; text-align: center; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    .product { border: 1px solid #ddd; margin: 20px; padding: 15px; background: white; border-radius: 8px; }
-    .product img { width: 200px; height: auto; }
-    .btn { background: #e91e63; color: white; padding: 10px; border: none; cursor: pointer; }
-    footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    body {
+      font-family: "Tahoma", sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .product {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      width: 200px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h2 {
+      font-size: 18px;
+      color: #27ae60;
+    }
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>متجر عبدالله</h1>
-    <p>أجود البطاطس والفراولة الطازجة</p>
-  </header>
-
-  <nav>
-    <a href="#potatoes">بطاطس</a>
-    <a href="#strawberries">فراولة</a>
-    <a href="#contact">اتصل بنا</a>
-  </nav>
-
-  <section id="potatoes" class="product">
-    <h2>🥔 بطاطس</h2>
-    <img src="https://via.placeholder.com/200x150?text=Potatoes" alt="بطاطس">
-    <p>سعر الكيلو: 20 جنيه</p>
-    <button class="btn">اطلب الآن</button>
-  </section>
-
-  <section id="strawberries" class="product">
-    <h2>🍓 فراولة</h2>
-    <img src="https://via.placeholder.com/200x150?text=Strawberries" alt="فراولة">
-    <p>سعر الكيلو: 35 جنيه</p>
-    <button class="btn">اطلب الآن</button>
-  </section>
-
-  <footer id="contact">
-    <p>📞 للتواصل: 01012345678</p>
-    <p>© 2026 متجر عبدالله</p>
-  </footer>
+  <h1>مرحبا بكم في متجر عبد الله</h1>
+  <div class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Strawberries.jpg" alt="فراولة">
+    <h2>فراولة طازجة</h2>
+    <p>السعر: 50 جنيه</p>
+  </div>
+  <div class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Potatoes.jpg" alt="بطاطس">
+    <h2>بطاطس ممتازة</h2>
+    <p>السعر: 30 جنيه</p>
+  </div>
 </body>
 </html>
