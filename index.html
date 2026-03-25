@@ -4,36 +4,13 @@
   <meta charset="UTF-8">
   <title>متجر عبد الله</title>
   <style>
-    body {
-      font-family: "Tahoma", sans-serif;
-      background-color: #f9f9f9;
-      text-align: center;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    .product {
-      display: inline-block;
-      margin: 20px;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background-color: #fff;
-      width: 200px;
-    }
-    .product img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    .product h2 {
-      font-size: 18px;
-      color: #27ae60;
-    }
-    .product p {
-      font-size: 14px;
-      color: #555;
-    }
+    body {font-family: Tahoma; background:#f9f9f9; text-align:center;}
+    h1 {color:#2c3e50;}
+    .product {display:inline-block; margin:20px; padding:10px; border:1px solid #ddd; border-radius:8px; background:#fff; width:200px;}
+    .product img {width:100%; border-radius:8px;}
+    .product h2 {color:#27ae60;}
+    .btn {display:block; margin-top:10px; padding:8px; background:#27ae60; color:#fff; text-decoration:none; border-radius:5px;}
+    .contact {margin-top:40px; padding:20px; background:#eee; border-radius:8px;}
   </style>
 </head>
 <body>
@@ -42,11 +19,19 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Strawberries.jpg" alt="فراولة">
     <h2>فراولة طازجة</h2>
     <p>السعر: 50 جنيه</p>
+    <a href="#" class="btn">اطلب الآن</a>
   </div>
   <div class="product">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Potatoes.jpg" alt="بطاطس">
     <h2>بطاطس ممتازة</h2>
     <p>السعر: 30 جنيه</p>
+    <a href="#" class="btn">اطلب الآن</a>
+  </div>
+
+  <!-- قسم الاتصال -->
+  <div class="contact">
+    <h2>📞 اتصل بنا</h2>
+    <p>للطلب أو الاستفسار: 01280652229</p>
   </div>
 </body>
 </html>
