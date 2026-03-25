@@ -5,33 +5,49 @@
   <title>متجر عبد الله</title>
   <style>
     body {font-family: Tahoma; background:#f9f9f9; text-align:center;}
-    h1 {color:#2c3e50;}
-    .product {display:inline-block; margin:20px; padding:10px; border:1px solid #ddd; border-radius:8px; background:#fff; width:200px;}
-    .product img {width:100%; border-radius:8px;}
-    .product h2 {color:#27ae60;}
-    .btn {display:block; margin-top:10px; padding:8px; background:#27ae60; color:#fff; text-decoration:none; border-radius:5px;}
-    .contact {margin-top:40px; padding:20px; background:#eee; border-radius:8px;}
+    h1 {color:#2c3e50; margin-top:20px;}
+    .products {display:flex; justify-content:center; flex-wrap:wrap; margin-top:30px;}
+    .product {
+      margin:20px; padding:15px; border:1px solid #ddd; border-radius:8px;
+      background:#fff; width:220px; box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {width:100%; height:auto; border-radius:8px;}
+    .product h2 {color:#27ae60; margin:10px 0;}
+    .btn {
+      display:block; margin-top:10px; padding:8px;
+      background:#27ae60; color:#fff; text-decoration:none; border-radius:5px;
+    }
+    .contact {
+      margin-top:40px; padding:20px; background:#eee; border-radius:8px;
+    }
+    .call-btn {
+      display:inline-block; margin-top:10px; padding:10px;
+      background:#e74c3c; color:#fff; text-decoration:none; border-radius:5px;
+    }
   </style>
 </head>
 <body>
   <h1>مرحبا بكم في متجر عبد الله</h1>
-  <div class="product">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Strawberries.jpg" alt="فراولة">
-    <h2>فراولة طازجة</h2>
-    <p>السعر: 50 جنيه</p>
-    <a href="#" class="btn">اطلب الآن</a>
-  </div>
-  <div class="product">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Potatoes.jpg" alt="بطاطس">
-    <h2>بطاطس ممتازة</h2>
-    <p>السعر: 30 جنيه</p>
-    <a href="#" class="btn">اطلب الآن</a>
+  <div class="products">
+    <div class="product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Strawberries.jpg" alt="فراولة">
+      <h2>فراولة طازجة</h2>
+      <p>السعر: 50 جنيه</p>
+      <a href="#" class="btn">اطلب الآن</a>
+    </div>
+    <div class="product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Potatoes.jpg" alt="بطاطس">
+      <h2>بطاطس ممتازة</h2>
+      <p>السعر: 30 جنيه</p>
+      <a href="#" class="btn">اطلب الآن</a>
+    </div>
   </div>
 
   <!-- قسم الاتصال -->
   <div class="contact">
     <h2>📞 اتصل بنا</h2>
     <p>للطلب أو الاستفسار: 01280652229</p>
+    <a href="tel:01280652229" class="call-btn">اتصل مباشرة</a>
   </div>
 </body>
 </html>
